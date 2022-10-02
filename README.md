@@ -51,3 +51,18 @@ HTML, CSS, Javascript, REACT
   - 식당별 상세 페이지
   - Admin 페이지로 식당 관리
  
+ [본인 담당 기능]
+- 메인 페이지
+  - local storage를 사용하여, 로그인 시, 닉네임을 활용한 웰컴 메시지
+  - 검색창 구현
+    Query string과 useEffect를 사용하여, 검색어에 따라 검색창 아래에서 검색 결과 바로 확인 
+- 헤더 및 푸터 구현
+  - useLocaton을 사용하여, 페이지 마다 헤더에 검색창 여부 차별화
+  - 호버 시, 드롭다운 메뉴 나타내기
+  - createPortal을 사용하여 모달 프로필 메뉴 
+- 마이페이지
+  - FileReader로, 수정할 이미지 미리보기 구현
+- admin 식당 등록 및 수정 페이지
+  -  FormData를 사용한, 서버에 여러 타입의 데이터 전송
+- 맛집 리스트 구현
+  - query string을 사용하여, 테마에 맞는 검색 결과 리스트로 이동
